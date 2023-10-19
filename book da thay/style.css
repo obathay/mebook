@@ -10,4 +10,20 @@ body{
 
 .principal{
     background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao{
+    background-color: #3A832E;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
 }
