@@ -44,6 +44,14 @@ body{
 }
 
 .botao-terceiro{
-    background-color: aqua;
-    color:#215E17 ;
+    background-color: #215E17;
+    color: white;; 
+}
+
+.container_imagem{
+    margin: 2em 0 2em 2em;
+}
+
+.container_caixa{
+    margin: 1em 2em;
 }
