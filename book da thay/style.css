@@ -17,7 +17,7 @@ body{
 }
 
 .container{
-    height: 100vh;
+    height: 130vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -40,7 +40,7 @@ body{
 
 .container_aviso{
     font-weight: 100;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .botao-terceiro{
@@ -54,4 +54,24 @@ body{
 
 .container_caixa{
     margin: 1em 2em;
+}
+
+.secundario_imagem{
+    width: 70%;
+}
+
+.descricao_texto{
+    font-weight: 800;
+    font-size: 40px;
+    color: #215E17;
+}
+
+.descricao_titulo{
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 4em;
 }
