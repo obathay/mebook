@@ -11,7 +11,7 @@ body{
 }
 
 .principal{
-    background-image: url(img/fundo.png);
+    background-color: #58c447;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -49,7 +49,12 @@ body{
 }
 
 .container_imagem{
-    margin: 2em 0 2em 2em;
+    margin: 1em 0 2em 4em;
+}
+
+.imagem_flor{
+    margin: 1em 0 2em 4em;
+    width: 80%;
 }
 
 .container_caixa{
@@ -74,4 +79,19 @@ body{
 .secundario{
     align-items: center;
     margin: 0 4em;
+}
+
+.container_descricao{
+    padding: 2em;
+}
+
+.descricaoo_titulo{
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.descricaoo_texto{
+    font-weight: 800;
+    font-size: 40px;
+    color: #215E17;
 }
